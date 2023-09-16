@@ -4,6 +4,7 @@ const buttons = document.querySelectorAll(".s-btn");
 const closeBtn = document.querySelector(".close-form");
 const closeBtnB = document.querySelector(".close-form-b")
 const buyBtn = document.querySelector(".b-btn");
+const buyBtn2 = document.querySelector(".b-btn2");
 
 for (var i = 0; i < buttons.length; i++) {
     buttons[i].onclick = function () {
@@ -14,6 +15,11 @@ for (var i = 0; i < buttons.length; i++) {
 }
 
 buyBtn.addEventListener('click', function () {
+    document.querySelector(".wrapper").classList.add('hidden-d');
+    document.querySelector(".wrapper-buying").classList.remove('hidden-d');
+})
+
+buyBtn2.addEventListener('click', function () {
     document.querySelector(".wrapper").classList.add('hidden-d');
     document.querySelector(".wrapper-buying").classList.remove('hidden-d');
 })

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<svg width="313" height="61" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#FCD338" height="57.38" id="svg_1" rx="29.69" transform="matrix(1, 0, 0, 1, 0, 0)" width="210.73" x="0" y="1.88"/>
+  <ellipse cx="178.77" cy="31.36" fill="black" id="svg_3" rx="20.5" ry="19.79"/>
+  <path d="m176.95,41.23l8.65,-10l-8.65,-9.99" id="svg_4" stroke="#FCD338" stroke-width="2"/>
+  <text fill="#000000" fill-opacity="null" font-family="Sans-serif" font-size="29" id="svg_5" stroke="null" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="0" text-anchor="middle" transform="matrix(1, 0, 0, 1, 0, 0)" x="87.5" xml:space="preserve" y="41">Pay Now</text>
+ </g>
+</svg>

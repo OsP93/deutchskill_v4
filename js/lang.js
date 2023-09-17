@@ -65,9 +65,9 @@ const langArr = {
         "ua": "Записатися на курси",
     },
     "cours-head": {
-        "ru": "НЕМЕЦКИЙ ЯЗЫК - ФАНТАСТИШ, <br> <span class=\"red\">GELI </span> И ПРОСТО <span class= \"yellow\" > IRRE GUT!</span> ",
+        "ru": "НЕМЕЦКИЙ ЯЗЫК - ФАНТАСТИШ, <br> <span class=\"red\">GEIL </span> И ПРОСТО <span class= \"yellow\" > KLASSE!</span> ",
         "de": "Deutsch. Cool, <span class=\"red\">Fantastisch</span>,<br> Modern – <span class=\"yellow\">Erlebe die Sprachkunst!</span>",
-        "ua": "НІМЕЦЬКА ЦЕ ФАНТАСТИЧНО, <br> <span class=\"red\">GELI </span> І ПРОСТО <span class= \"yellow\" > IRRE GUT!</span> ",
+        "ua": "НІМЕЦЬКА ЦЕ ФАНТАСТИЧНО, <br> <span class=\"red\">GEIL </span> І ПРОСТО <span class= \"yellow\" > KLASSE!</span> ",
     },
     "card-session-a1": {
         "ru": "2 месяца",

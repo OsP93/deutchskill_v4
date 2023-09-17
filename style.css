@@ -993,6 +993,7 @@ html {
     padding: 0.5vw 1vw;
     border-radius: 30px;
     margin-top: 10%;
+    cursor: pointer;
 }
 
 .button--text {

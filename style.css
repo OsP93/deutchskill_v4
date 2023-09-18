@@ -100,8 +100,13 @@ h6 {
     overflow-y: hidden;
 }
 
-.s-btn {
+#back-btn,
+#details-btn {
     cursor: pointer;
+}
+
+#back-btn {
+    float: right;
 }
 
 html {
@@ -153,6 +158,9 @@ html {
     font-family: 'Object Sans', sans-serif;
 }
 
+.boldtext {
+    font-weight: bold;
+}
 
 /*-- header --*/
 .header {
@@ -655,7 +663,8 @@ html {
     margin-bottom: 20px;
 }
 
-.cadr-description--text {
+.cadr-description--text,
+.club-content-details--text {
     font-size: 1.1vw;
     /* font-family: 'Manrope', sans-serif; */
     font-style: normal;
@@ -706,24 +715,35 @@ html {
 }
 
 .club-img {
-    width: 70%;
+    width: 50%;
     background-image: url(src/img/shutterstock_conversation.jpg);
     background-size: cover;
     border-radius: 60px;
 }
 
 .club-content {
-    padding: 7%;
+    padding: 6% 5%;
+    width: 50%;
+}
+
+.club-content-details {
+    padding: 3%;
+    width: 50%;
 }
 
 .club-content--title,
 .teachers-content--title,
-.invite-content--title {
+.invite-content--title,
+.club-content-details--title {
     color: #000;
     font-size: 2.5vw;
     /* font-family: 'Object Sans', sans-serif; */
     font-weight: 800;
     text-transform: uppercase;
+}
+
+.club-content-details--title {
+    margin-bottom: 3%;
 }
 
 .club-content--title {
@@ -1515,7 +1535,8 @@ form a:hover {
         font-size: 1.3rem;
     }
 
-    .cadr-description--text {
+    .cadr-description--text,
+    .club-content-details--text {
         font-size: 0.9rem;
     }
 
@@ -1528,12 +1549,15 @@ form a:hover {
         font-size: 0.9rem;
     }
 
-    .club-content {
+    .club-content,
+    .club-content-details {
         padding: 3%;
+        width: 50%;
     }
 
     .club-content--title,
-    .teachers-content--title {
+    .teachers-content--title,
+    .club-content-details--title {
         font-size: 2.3rem;
     }
 
@@ -1671,7 +1695,8 @@ form a:hover {
         margin: 20px auto;
     }
 
-    .cadr-description--text {
+    .cadr-description--text,
+    .club-content-details--text {
         font-size: 1.2rem;
     }
 
@@ -1685,7 +1710,8 @@ form a:hover {
 
     .club-content--title,
     .teachers-content--title,
-    .invite-content--title {
+    .invite-content--title,
+    .club-content-details--title {
         font-size: 4vw;
     }
 
@@ -1858,13 +1884,15 @@ form a:hover {
         font-size: 3vw;
     }
 
-    .cadr-description--text {
+    .cadr-description--text,
+    .club-content-details--text {
         font-size: 2vw;
     }
 
     .club-content--title,
     .teachers-content--title,
-    .invite-content--title {
+    .invite-content--title,
+    .club-content-details--title {
         font-size: 6vw;
         margin: 5vw 3% 10vw;
     }
@@ -1994,7 +2022,8 @@ form a:hover {
         font-size: 5vw;
     }
 
-    .cadr-description--text {
+    .cadr-description--text,
+    .club-content-details--text {
         font-size: 3vw;
     }
 

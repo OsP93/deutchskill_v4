@@ -189,6 +189,11 @@ const langArr = {
         "de": "Gemeinsam lernen,lachen und kommunizieren - werde Teil unseres Sprachclubs",
         "ua": "Кинь виклик німецькій мові! Клуб нестримного спілкування та мовних пригод!",
     },
+    "club2-title": {
+        "ru": "РАЗГОВОРНЫЙ КЛУБ",
+        "de": "Sprachklub",
+        "ua": "мовний клуб",
+    },
     "club-sesion": {
         "ru": "3 месяца",
         "de": "3 Monate",
@@ -218,6 +223,11 @@ const langArr = {
         "ru": "Узнать подробнее",
         "de": "Mehr erfahren",
         "ua": "Детальніше",
+    },
+    "club2-btn": {
+        "ru": "Назад",
+        "de": "Zurück",
+        "ua": "Назад",
     },
     "club-btn2": {
         "ru": "Записаться в клуб",

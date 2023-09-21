@@ -8,30 +8,64 @@ const buyBtn2 = document.querySelector(".b-btn2");
 
 for (var i = 0; i < buttons.length; i++) {
     buttons[i].onclick = function () {
-        //console.log(document.querySelector(".wrapper"));
-        document.querySelector(".wrapper").classList.add('hidden-d');
-        document.querySelector(".wrapper-form").classList.remove('hidden-d');
+        document.querySelector(".wrapper").classList.remove('fadeIn');
+        document.querySelector(".wrapper").classList.add('fadeOut');
+        setTimeout(function () {
+            document.querySelector(".wrapper").classList.add('hidden-d');
+            document.querySelector(".wrapper-form").classList.remove('hidden-d');
+            document.querySelector(".wrapper-form").classList.add('fadeIn');
+            document.querySelector(".wrapper").classList.remove('fadeOut');
+        }, 500);
     };
 }
 
+// buyBtn.addEventListener('click', function () {
+//     document.querySelector(".wrapper").classList.add('hidden-d');
+//     document.querySelector(".wrapper-buying").classList.remove('hidden-d');
+// })
+
 buyBtn.addEventListener('click', function () {
-    document.querySelector(".wrapper").classList.add('hidden-d');
-    document.querySelector(".wrapper-buying").classList.remove('hidden-d');
+    document.querySelector(".wrapper").classList.remove('fadeIn');
+    document.querySelector(".wrapper").classList.add('fadeOut');
+    setTimeout(function () {
+        document.querySelector(".wrapper").classList.add('hidden-d');
+        document.querySelector(".wrapper-buying").classList.remove('hidden-d');
+        document.querySelector(".wrapper-buying").classList.add('fadeIn');
+        document.querySelector(".wrapper").classList.remove('fadeOut');
+    }, 500);
 })
 
 buyBtn2.addEventListener('click', function () {
-    document.querySelector(".wrapper").classList.add('hidden-d');
-    document.querySelector(".wrapper-buying").classList.remove('hidden-d');
+    document.querySelector(".wrapper").classList.remove('fadeIn');
+    document.querySelector(".wrapper").classList.add('fadeOut');
+    setTimeout(function () {
+        document.querySelector(".wrapper").classList.add('hidden-d');
+        document.querySelector(".wrapper-buying").classList.remove('hidden-d');
+        document.querySelector(".wrapper-buying").classList.add('fadeIn');
+        document.querySelector(".wrapper").classList.remove('fadeOut');
+    }, 500);
 })
 
 closeBtn.addEventListener('click', function () {
-    document.querySelector(".wrapper-form").classList.add('hidden-d');
-    document.querySelector(".wrapper").classList.remove('hidden-d');
+    document.querySelector(".wrapper-form").classList.remove('fadeIn');
+    document.querySelector(".wrapper-form").classList.add('fadeOut');
+    setTimeout(function () {
+        document.querySelector(".wrapper-form").classList.add('hidden-d');
+        document.querySelector(".wrapper").classList.remove('hidden-d');
+        document.querySelector(".wrapper").classList.add('fadeIn');
+        document.querySelector(".wrapper-form").classList.remove('fadeOut');
+    }, 500);
 })
 
 closeBtnB.addEventListener('click', function () {
-    document.querySelector(".wrapper-buying").classList.add('hidden-d');
-    document.querySelector(".wrapper").classList.remove('hidden-d');
+    document.querySelector(".wrapper-buying").classList.remove('fadeIn');
+    document.querySelector(".wrapper-buying").classList.add('fadeOut');
+    setTimeout(function () {
+        document.querySelector(".wrapper-buying").classList.add('hidden-d');
+        document.querySelector(".wrapper").classList.remove('hidden-d');
+        document.querySelector(".wrapper").classList.add('fadeIn');
+        document.querySelector(".wrapper-buying").classList.remove('fadeOut');
+    }, 500);
 })
 
 // send msg to mail and tg-chat

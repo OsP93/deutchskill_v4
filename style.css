@@ -738,6 +738,7 @@ html {
     border-radius: 30px;
     padding: 10px;
     margin: 0 39% 0 0;
+    cursor: pointer;
 }
 
 .card-button2 {
@@ -748,6 +749,7 @@ html {
     border-radius: 30px;
     padding: 10px;
     margin: 0 40% 0 0;
+    cursor: pointer;
 }
 
 .card-button--text {

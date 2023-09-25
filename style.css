@@ -954,7 +954,7 @@ html {
     color: #000;
     padding: 5px 10px;
     border-radius: 10px;
-    font-size: 1vw;
+    font-size: 0.75em;
     /* font-family: 'Object Sans', sans-serif; */
     font-style: normal;
     font-weight: 800;
@@ -1975,6 +1975,12 @@ form a:hover {
 
     .teachers-content--img {
         display: none;
+    }
+
+    .club-content,
+    .club-content-details,
+    .teachers-content {
+        width: 100%;
     }
 
     .club-content--description,
